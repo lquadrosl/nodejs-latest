@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-latest",
+  "version": "0.0.1",
+  "description": "Simple script that connects to nodejs.org and extracts current version available.",
+  "homepage": "https://github.com/lquadrosl/nodejs-latest",
+  "keywords": [
+    "nodejs",
+    "latest version",
+    "version"
+  ],
+  "author": {
+    "name": "Leonardo de Quadros Luzzatto",
+    "email": "lluzzatto@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lquadrosl/nodejs-latest"
+  },
+  "bugs": "https://github.com/lquadrosl/nodejs-latest/issues",
+  "engines": {
+    "node": "0.8.x || 0.9.x || 0.10.x || 0.11.x || 0.12.x"
+  },
+  "dependencies": {
+    "https": "*",
+    "cheerio": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lquadrosl/nodejs-latest/blob/master/LICENSE"
+    }
+  ]
+}
